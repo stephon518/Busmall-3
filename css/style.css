@@ -1,52 +1,57 @@
-#page{
-  max-width: 1000px;
-  min-width: 700px;
-  margin: 10px auto 10px auto;
-  padding: 20px;
-  border: 4px double #000;
-  background-color:#E6F9AF;  
+
+body{
+  background-color: lightgray;
 }
 img{
-  width: 300px;
-  height: 300px;
-  border: 2px dashed #8BBEB2;
-  border-radius: 10px;
-  margin-left:20px;
-  
-  
+  max-width: 250px;
+  max-height: 400px;
+  margin:10px 25px;
+  background-color: darkslategray;
+  padding : 15px;
+  }
+article{
+  max-width: 420px;
+  display: block;
 }
-.products:hover, .img{
-  opacity:1;
-}
-.products{
-  width: 100%;
-  display: flex;
-  align-content: space-between;
-  background-color: #18314F;
-  opacity:.75;
-  padding: 10px;
-} 
-h1{
-  color: #8BBEB2;
-  font-family: 'Luckiest Guy' ;
+h1 { 
   text-align: center;
-  padding: 5px;
-  border: 1px solid black;
-  font-size: 2.2em;
-  width:400px;
-  margin: 10px auto 10px auto;   
-  box-shadow: 5px 5px 5px #222222;
-  background-color:#0D0630;
+  font-size: 72pt;
 }
-ul{
-  list-style-type: disc;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  list-style-position: inside;
-  line-height: 16px;
-  margin-left: 30px;
-  margin-top:20px;
+#start-box{
+  text-align: center;
 }
-li{
-  margin-bottom:10px;
+button{
+  margin:112px;
+}
+article{
+  max-width: 420px;
+  display: block;
+}
+h1 { 
+  text-align: center;
+  font-size: 72pt;
+}
+#img-box{
+  display: inline;
+}
+header{
+  height: 100px;
+  border: inset 8px darkred;
+}
+input{
+  width: 200px;
+}
+#charts{
+  display: flex;
+  margin:  10px 50px;
+}
+#myChart{
+
+  margin: 10px 25px;
+}
+
+
+#myChart2{
+  margin: 10px 25px;
+
 }
